@@ -29,3 +29,10 @@ let bool = '1'=== 1
 console.log(bool)
 
 // Conditionals
+
+let subscribe = false
+// If subscribe equals true you will be able to see 'show the video' in the console if you change subscribe above to equal false it will 
+// no longer meet the conditions and 'show the video' will no longer show 
+if (subscribe === true) [
+    console.log('show the video')
+]
