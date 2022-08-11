@@ -31,12 +31,43 @@ console.log(bool)
 // Conditionals
 
 let subscribe = false
+let LoggedIn = true
 // If subscribe equals true you will be able to see 'show the video' in the console if you change subscribe above to equal false it will 
 // no longer meet the conditions and 'show the video' will no longer show 
 if (subscribe === true) [
     console.log('show the video')
 ]
 
+else if (LoggedIn === true) {
+    console.log('tell the user to upgrade their subscription')
+}
+// else statement will only run if the 'if' is false
 else {
     console.log('tell user to log into account')
+}
+//shows how the order of the if else statements works and is important
+// let cash = 50
+// let price = 400
+// let change = cash - price
+// let balance = price - cash
+// if (cash > price) {
+//     console.log(`you paid extra, here's ${change} dollars change`)
+// }
+// else if (cash === price){
+//     console.log("You paid the exact amount!!! Have a nice day!")
+// }
+
+// else {
+//     console.log(`not enough money, sorry you still owe ${balance} dollars`)
+// }
+
+
+// logical Operations
+
+let cash = 50
+let price = 40
+let isStoreOpen = true
+//with the && it will make sure both sides are true in order to run the 'if' line of code below
+if (cash >= price && isStoreOpen === true) {
+    console.log("print receipt")
 }
