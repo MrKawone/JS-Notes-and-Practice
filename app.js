@@ -31,14 +31,14 @@ console.log(bool)
 // Conditionals
 
 let subscribe = false
-let LoggedIn = true
+let Loggedout = true
 // If subscribe equals true you will be able to see 'show the video' in the console if you change subscribe above to equal false it will 
 // no longer meet the conditions and 'show the video' will no longer show 
 if (subscribe === true) [
     console.log('show the video')
 ]
 
-else if (LoggedIn === true) {
+else if (Loggedout === true) {
     console.log('tell the user to upgrade their subscription')
 }
 // else statement will only run if the 'if' is false
@@ -72,3 +72,23 @@ let isStoreOpen = true
 if (cash >= price || isStoreOpen === true) {
     console.log("print receipt")
 }
+
+// ternary Operations
+
+let hot = true
+
+hot ? console.log("weather is hot") : console.log("weather is cold")
+
+
+let subscribed = true
+let LoggedIn = true
+let str = subscribed && LoggedIn ? 'show the video' : 'hide the video'
+console.log(str)
+
+let today = cash >= price && isStoreOpen ? ('give receipt') : ('do not give receipt')
+console.log(today)
+
+
+
+// LOOPS
+
