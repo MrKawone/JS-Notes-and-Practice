@@ -68,6 +68,7 @@ let cash = 50
 let price = 40
 let isStoreOpen = true
 //with the && it will make sure both sides are true in order to run the 'if' line of code below
-if (cash >= price && isStoreOpen === true) {
+// with the || it will make sure that at least one side of the comparison is true it will run the "if" code below
+if (cash >= price || isStoreOpen === true) {
     console.log("print receipt")
 }
