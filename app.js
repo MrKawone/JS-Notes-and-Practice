@@ -91,4 +91,61 @@ console.log(today)
 
 
 // LOOPS
+// counting to 100 
+
+let count = 1;
+// console.log(count)
+// count = count + 1;
+// console.log(count)
+
+// DRY = Do Not Repeat Yourself
+
+
+// as long as the condition "()" of the While loop is true it will always run what is in the block of code 
+// if the condition is true and there is no code your webpage will crash meaning keep it flase until you are ready to use it 
+
+// this is WHILE LOOP WORKING TO COUNT TO 100
+// while (count <= 100) { 
+// console.log(count)
+// count = count + 1
+// }
+
+
+// // This is For Loop counting to 100
+// //adding ++ means plus 1
+// for (let i = 0; i < 101; i++) {
+// console.log(i)
+// }
+
+// famous FizzBuzz interview Question
+// Write a for loop the loops 1- 20
+// if the numbers is divisible by 3 print frontend
+// if the number is divisble by 5 print simplified
+// if the number is divisble by both 3 and 5 print frontend simplified
+
+// My answer
+// for (let i = 1; i < 21; i++) {
+//  console.log(i)
+// let frontend = i % 3 === 0
+// let simplified = i % 5 === 0
+// let fontendSimplified = i % 3 === 0 && i % 5 === 0
+// }
+ 
+
+// correct answer
+for (let i =1; i <= 20; i++) {
+if (i % 3 === 0 && i % 5 === 0){
+    console.log (`${i} -> frontend Simplified`)
+}
+else if ( i % 3 === 0) {
+console.log (`${i} -> Frontend`)
+}
+else if (i % 5 === 0 ) {
+    console.log (`${i} -> Simplified`)
+}
+else {
+    console.log(`${i} -> ${i}`)
+}
+}
+
 
