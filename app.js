@@ -75,18 +75,18 @@ if (cash >= price || isStoreOpen === true) {
 
 // ternary Operations
 
-let hot = true
+// let hot = true
 
-hot ? console.log("weather is hot") : console.log("weather is cold")
+// hot ? console.log("weather is hot") : console.log("weather is cold")
 
 
-let subscribed = true
-let LoggedIn = true
-let str = subscribed && LoggedIn ? 'show the video' : 'hide the video'
-console.log(str)
+// let subscribed = true
+// let LoggedIn = true
+// let str = subscribed && LoggedIn ? 'show the video' : 'hide the video'
+// console.log(str)
 
-let today = cash >= price && isStoreOpen ? ('give receipt') : ('do not give receipt')
-console.log(today)
+// let today = cash >= price && isStoreOpen ? ('give receipt') : ('do not give receipt')
+// console.log(today)
 
 
 
@@ -133,19 +133,29 @@ let count = 1;
  
 
 // correct answer
-for (let i =1; i <= 20; i++) {
-if (i % 3 === 0 && i % 5 === 0){
-    console.log (`${i} -> frontend Simplified`)
-}
-else if ( i % 3 === 0) {
-console.log (`${i} -> Frontend`)
-}
-else if (i % 5 === 0 ) {
-    console.log (`${i} -> Simplified`)
-}
-else {
-    console.log(`${i} -> ${i}`)
-}
-}
+// for (let i =1; i <= 20; i++) {
+// if (i % 3 === 0 && i % 5 === 0){
+//     console.log (`${i} -> frontend Simplified`)
+// }
+// else if ( i % 3 === 0) {
+// console.log (`${i} -> Frontend`)
+// }
+// else if (i % 5 === 0 ) {
+//     console.log (`${i} -> Simplified`)
+// }
+// else {
+//     console.log(`${i} -> ${i}`)
+// }
+// }
 
+
+// pRINT PUT EVERY CHARACTER FROM THE STRING
+//Frontend Simplified 
+
+const str = "Frontend Simplified"
+// Used CONST because it wont be changing
+
+for (let i = 0; i <= str.length; i++) {
+console.log(str[i])
+}
 
