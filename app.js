@@ -205,5 +205,27 @@ console.log(convertCelToFahr(10,))
 
 // ARRAYS
 
+// let item1 = 10
+// let item2 = 20
+// let item3 = 50
+// let item4 = 75
+// let item5 = 60
+// Here is the syntax to write an ARRAY 
+// square brackets make it an ARRAY
+let arr = [10, 20, 50, 75, 60]
+// ARRAYS are counted like STRINGS start at 0 and got on and an easy way to  see the length of the ARRAY is the same syntax for STRING (arr.length-1)
+// first element in ARRAY 
+console.log(arr[0])
+// last element in ARRAY
+console.log(arr[arr.length-1])
+
+// Add elements to arrays by using arr  .push()
+
+arr.push(5000)
+
+arr.filter((element) => {
+    console.log(element)
+})
 
 
+console.log(arr)
