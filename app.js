@@ -159,3 +159,51 @@ for (let i = 0; i <= str.length; i++) {
 console.log(str[i])
 }
 
+// FUNCTIONS
+// Remember DRY - Don't Repeat Yourself
+// console.log("Welcome to FES, Zen")
+// console.log("Welcome to FES, Mitri")
+// console.log("Welcome to FES, David")
+
+// Function Definition
+// name is the parameter 
+function welcomepersonToFES(name) {
+    // console.log("Welcome to FES, David")
+    // console.log(name)
+    // Correct way to code the function
+console.log(`Welcome to FES, ${name}!`)
+};
+
+// Call the function
+// Name the parameter will be defined in th efunction call 
+welcomepersonToFES("David");
+welcomepersonToFES("Kawone");
+welcomepersonToFES("DaSha");
+
+// return ends and prints the function
+function sumOfTwoNumbers(num1, num2) {
+return num1+num2
+}
+
+console.log(sumOfTwoNumbers(10, 794))
+
+// Convert Celcius to Fahrenheit with Functions
+
+// function convertCelToFahr(c) {
+//     return c * 1.8 + 32
+// }
+
+// Second way to define a Function
+
+const convertCelToFahr = (c) => {
+    return c*1.8+32
+}
+
+console.log(convertCelToFahr(10,))
+
+
+
+// ARRAYS
+
+
+
